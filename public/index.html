@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:500|Open+Sans:400,600" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.3.0/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/jquery.canvasjs.min.js"></script>
+    <script src="assets/js/config.js"></script>
+    <script src="assets/js/script.js"></script>
+    <title>Cricket World Cup</title>
+  </head>
+  <body>
+    <div class="text-center main-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/5/5f/ICC_T20_World_Cup_2022_Logo.png" alt="World Cup Logo" />
+    </div>
+    <div class="container main-wrapper">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">World Cup Winning Cricket Team </h5>
+              <h6 class="card-subtitle mb-2 text-muted">With the T20 World Cup ongoing...Please select the team you would like to win!</h6>
+              <form id="voteForm">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="team" id="india" value="India" />
+                  <label class="form-check-label" for="India">
+                    India
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="team" id="england" value="England" />
+                  <label class="form-check-label" for="England">
+                    England
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="team" id="new zeland" value="New Zealand" />
+                  <label class="form-check-label" for="new zealand">
+                    New Zealand
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" name="team" id="australia" value="Australia" />
+                  <label class="form-check-label" for="australia">
+                    Australia
+                  </label>
+                </div>
+                <button type="submit" class="btn btn-primary btn-sm mt-2">Vote</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div id="chartContainer" class="card"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
