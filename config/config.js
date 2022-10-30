@@ -1,9 +1,9 @@
 // Add the appId, key, secret, cluster here.
 const PusherServerConfig = {
-  appId: 'appId',
-  key: 'key',
-  secret: 'secret',
-  cluster: 'cluster',
+  appId: '1499128',
+  key: 'e243f5cbfd533cadc22c',
+  secret: 'cb854f3699cf40fe3c36',
+  cluster: 'ap2',
   encrypted: true
 };
 
