@@ -1,0 +1,37 @@
+{
+  "name": "cricket-pusher",
+  "version": "1.0.0",
+  "description": "A realtime application for fan based cricket poll voting",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smartmind12/Testing.git"
+  },
+  "keywords": [
+    "Cricket",
+    "Pusher",
+    "Voting",
+    "Real Time",
+    "Web Application"
+  ],
+  "author": "Utsav Paul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Smartmind12/Testing/issues"
+  },
+  "homepage": "https://github.com/Smartmind12/Testing#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.6",
+    "pusher": "^2.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
