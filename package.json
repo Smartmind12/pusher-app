@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Smartmind12/Testing.git"
+    "url": "git+https://github.com/Smartmind12/pusher-app.git"
   },
   "keywords": [
     "Cricket",
@@ -21,9 +21,9 @@
   "author": "Utsav Paul",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Smartmind12/Testing/issues"
+    "url": "https://github.com/Smartmind12/pusher-app/issues"
   },
-  "homepage": "https://github.com/Smartmind12/Testing#readme",
+  "homepage": "https://github.com/Smartmind12/pusher-app#readme",
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
